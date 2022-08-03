@@ -22,8 +22,8 @@ function App() {
           element={<FriendDetail></FriendDetail>}
         ></Route>
         <Route path="/posts" element={<Posts></Posts>}>
-          <Route path=":postId" element={<PostDetail></PostDetail>}></Route>
-        </Route>
+          <Route path=':postId' element={<PostDetail></PostDetail>}></Route>
+           </Route>
 
         <Route path="/contact" element={<Contact></Contact>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
