@@ -3,5 +3,9 @@
     font-weight:bold;
     font-size: 25px;
     color: orange;
-    
+   
+}
+.nav-link{
+    display: flex;
+    justify-content: center;
 }
